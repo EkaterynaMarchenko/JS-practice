@@ -1,3 +1,6 @@
+
+   /* ПЕРЕМЕННЫЕ */
+
 /* Задание на урок:
 
 1) Создать переменную numberOfFilms и в неё поместить ответ от пользователя на вопрос:
@@ -84,4 +87,18 @@ switch (num) {
     default:
         console.log('Не в этот раз');
         break;
+}
+
+    /* ЦИКЛЫ */
+
+let num = 50;
+
+while (num < 55) {
+    console.log(num);
+    num++;
+}
+
+do {
+    console.log(num);
+    num++;
 }
