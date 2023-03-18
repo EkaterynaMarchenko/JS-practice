@@ -343,3 +343,13 @@ writeYourGenres();
 
 console.log(personalMovieDB);
 
+    /* Callback - ФУНКЦИИ */
+
+function lernJS(lang, callback) {
+    console.log(`Я учу: ${lang}`);
+    callback();
+}
+
+learnJS('JavaScript', function() {
+    console.log('Я прошел этот урок!');
+});
